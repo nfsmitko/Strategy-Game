@@ -20,6 +20,7 @@ namespace StrategyGame.DataAccess
 		public DbSet<Building> Buildings { get; set; } = null!;
 		public DbSet<Resurse> Resurses { get; set; } = null!;
 		public DbSet<World> Worlds { get; set; } = null!;
+		public DbSet<ResursToBuild> ResursesToBuild { get; set; } = null!;
 
 		protected override void OnModelCreating(ModelBuilder builder)
 		{
